@@ -39,14 +39,14 @@ Instagram profile | *[click here](https://instagram.com/oqiljonraximov)*
     }
  ```
  
- #### Experience
+#### Experience
  1. Several 2d and 3d Android Games
  1. Websites with HTML and CSS
  1. Coding from course c#
  
  
  
- #### Education
+#### Education
 
 - [x] Introduction to information technologies
 - [x] Fundamentals of Information technology
