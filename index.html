@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <h1>HTML, CSS & Git Basics</h1>
+        <h2>This is My CV for RS-School</h2>
+    </header>
+    <section class="container">
+        <div class="block-top">
+            <div class="block-1">
+                <img src="./img/image.jpg" alt="picture" width="200" height="200">
+            </div>
+            <div class="block-2">
+                <h3>Name: Okiljon</h3>
+                <h3>Surname: Rakhimov</h3>
+                <h3>Date Of Birth: 24.06.1997</h3>
+            </div>
+        </div>
+        <div class="block block-center large-size">
+            <h2>Contact Info:</h2>
+            <p>Phone Number: + 998 90 321 33 35</p>
+            <p>E-Mail: John.raximov.or.@gmail.com</p>
+            <p>Telegram Username: <a href="https://t.me/John3335">Okiljon</a></p>
+        </div>
+        <div class="block block-center large-size">
+            <h2>Summary:</h2>
+            <p>As a junior developer, I have several targets to achieve in the near future. These are learning core js, c#, Game development. Notwithstanding that having lack of experience, I am eager to work hard and self-educate myself once I achieve my aims. Most of my time, I spend to enhance programming comprehension.</p>
+        </div>
+        <div class="block large-size">
+            <h2>Skills:</h2>
+            <p>
+                <ul>
+                    <li>
+                        HTML 5
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        Ability to teach
+                    </li>
+                    <li>
+                        C#
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="block">
+            <h2>Code examples:</h2>
+            <div class="box">
+                <pre>void Update() </pre>
+                <pre>{</pre>   
+                <pre>    transform.Translate(Input.GetAxis("Horizontal") * 0.5f, Input.GetAxis("Vertical") * 0.5f, 0);</pre>
+                <pre>   transform.Rotate(Input.GetAxis("Mouse Y") * 3f, - Input.GetAxis("Mouse X") * 3f, 0);</pre> 
+                </br>   
+                <pre>    if (Input.GetKey(KeyCode.I))</pre>
+                <pre>            scale += 0.1f;</pre>
+                <pre>    if (Input.GetKey(KeyCode.O))</pre>
+                <pre>            scale -= 0.1f;</pre>
+                <pre>    transform.localScale = new Vector3(scale, scale, scale);</pre>
+                <pre>}</pre> 
+            </div>
+        </div>
+        <div class="block large-size">
+            <h2>Experience:</h2>
+            <p>
+                <ol>
+                    <li>
+                        Several 2d and 3d Android Games
+                    </li>
+                    <li>
+                        Websites with HTML and CSS
+                    </li>
+                    <li>
+                        Coding from course c#
+                    </li>
+                </ol>
+            </p>
+        </div>
+        <div class="block large-size">
+            <div class="education">
+                <span>
+                    <h2>Education: </h2>
+                </span>
+                <br>
+                <input type="checkbox" name="education" id="it" value="it" checked> 
+                <label for="it">Introduction to information technologies</label> </br>
+                <input type="checkbox" name="education" id="funit" value="funit" checked>
+                <label for="funit">Fundamentals of Information technology</label> </br>
+                <input type="checkbox" name="education" id="funpro" value="funpro" checked>
+                <label for="funpro">Fundamentals of Programming</label> </br>
+                <input type="checkbox" name="education" id="basics" value="basics" checked>
+                <label for="basics">Basics of HTML and CSS</label>
+            </div>
+        </div>
+        <div class="block large-size">
+            <div class="english">
+                <span>
+                    <h2>English:</h2>
+                </span>
+                <br>
+                <input type="checkbox" name="english" id="ielts" value="ielts" checked>
+                <label for="ielts">Ielts 6.0</label> </br>
+                <input type="checkbox" name="english" id="university" value="university" checked>
+                <label for="university">Studying at Westminster International University in Tashkent (2nd year student)</label>
+            </div>
+        </div>
+    </section> 
+</body>
+</html>
